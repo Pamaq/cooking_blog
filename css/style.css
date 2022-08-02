@@ -1,0 +1,21 @@
+nav {
+  position: sticky;
+  border: 1px navy solid;
+}
+
+ul {
+  display: flex;
+  border: 1px red solid;
+}
+
+#headerDiv {
+  border: 1px pink solid;
+}
+
+.icon {
+  display: inline;
+}
+
+.blogName {
+  display: inline;
+}
