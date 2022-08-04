@@ -1,111 +1,120 @@
 * {
-  padding: 0;
-  margin: 0;
+	padding: 0;
+	margin: 0;
 }
 
 nav {
-  height: 30px;
-  position: sticky;
-  border: 1px navy solid;
-  padding: 10px;
-  opacity: 0.8;
-  background-color: rgba(204, 131, 138, 0.8);
-  text-shadow: 2px 2px rgb(100, 91, 91);
+	height: 30px;
+	position: sticky;
+	top: 0;
+	/*
+	border: 1px navy solid;
+  */
+	padding: 10px;
+	background-color: rgb(204, 131, 138);
+	text-shadow: 2px 2px rgb(100, 91, 91);
+	box-shadow: 0 3px 0 0 rgba(0, 0, 0, 0.2);
 }
 
 ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  border: 1px red solid;
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+	/*
+	border: 1px red solid;
+  */
 }
 
 #headerDiv {
-  border: 1px green solid;
-  background-color: rgba(255, 255, 255, 0.3);
+	/*
+	border: 1px green solid;
+  */
+	justify-content: center;
+	height: auto;
 }
 
 .icon {
-  display: inline;
+	display: inline;
 }
 
 .blogName {
-  display: inline;
-  color: rgb(255, 255, 255);
+	display: inline;
+	color: rgb(255, 255, 255);
 }
 
 body {
-  font-family: "Roboto";
-  margin: 0;
-  line-height: 1.6;
+	font-family: "Roboto";
+	margin: 0;
+	line-height: 1.6;
 }
 
 #header {
-  line-height: 1.7;
-  font-size: 1.5rem;
-  text-align: center;
-  padding: 150px 0;
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 2px rgb(100, 91, 91);
-  background-image: url("/img/rachel-park-hrlvr2ZlUNk-unsplash.jpg");
-  background-position: cover;
-  background-repeat: no-repeat;
-  background-size: cover;
-  filter: opacity(0.8);
+	line-height: 1.7;
+	font-size: 1.5rem;
+	text-align: center;
+	padding: 150px 0;
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px rgb(100, 91, 91);
+	background-image: url("/img/rachel-park-hrlvr2ZlUNk-unsplash.jpg");
+	background-position: cover;
+	background-repeat: no-repeat;
+	background-size: cover;
+	filter: opacity(0.8);
 }
+
 main {
-  display: grid;
-  font-family: "Roboto";
-  grid-template-columns: 300px 300px 300px;
-  grid-template-rows: 550px;
-  gap: 15px;
-  margin-top: 40px;
-  grid-auto-rows: 550px;
+	display: grid;
+	font-family: "Roboto";
+	grid-template-columns: 300px 300px 300px;
+	grid-template-rows: 550px;
+	gap: 15px;
+	margin-top: 40px;
+	grid-auto-rows: 550px;
 }
 
 h2 {
-  font-size: 16px;
-  font-weight: 400;
-  text-align: left;
-  color: rgb(255, 255, 255);
-  text-shadow: 2px 2px rgb(100, 91, 91);
-  font-size: 18px;
-  padding-left: 5px;
-  padding-bottom: 10px;
+	font-size: 16px;
+	font-weight: 400;
+	text-align: left;
+	color: rgb(255, 255, 255);
+	text-shadow: 2px 2px rgb(100, 91, 91);
+	font-size: 18px;
+	padding-left: 5px;
+	padding-bottom: 10px;
 }
 
 .foodimg {
-  justify-content: center;
-  width: 100%;
+	justify-content: center;
+	width: 100%;
 }
 
 .foodimg:hover {
-  opacity: 0.8;
+	opacity: 0.8;
 }
 
 .recipe {
-  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
-  background-color: rgb(204, 131, 138);
+	box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+	background-color: rgb(204, 131, 138);
 }
 
 .time {
-  padding-left: 0px;
-  display: inline-block;
-  color: rgb(221, 211, 211);
-  font-size: 15px;
+	padding-left: 0px;
+	display: inline-block;
+	color: rgb(221, 211, 211);
+	font-size: 15px;
 }
 
 .description {
-  color: rgb(221, 211, 211);
-  padding: 10px;
+	color: rgb(221, 211, 211);
+	padding: 10px;
 }
 
 .container {
-  min-width: 500px;
-  justify-content: center;
+	min-width: 500px;
+	justify-content: center;
 }
 
 .clock {
-  padding-left: 5px;
-  height: 15px;
+	padding-left: 5px;
+	height: 15px;
 }
