@@ -4,20 +4,25 @@
 }
 
 nav {
+  height: 30px;
   position: sticky;
   border: 1px navy solid;
   padding: 10px;
   opacity: 0.8;
+  background-color: rgba(204, 131, 138, 0.8);
+  text-shadow: 2px 2px rgb(100, 91, 91);
 }
 
 ul {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
   border: 1px red solid;
 }
 
 #headerDiv {
   border: 1px green solid;
-  display: inline;
+  background-color: rgba(255, 255, 255, 0.3);
 }
 
 .icon {
@@ -26,7 +31,7 @@ ul {
 
 .blogName {
   display: inline;
-  color: rgba(100, 91, 91);
+  color: rgb(255, 255, 255);
 }
 
 body {
@@ -34,6 +39,7 @@ body {
   margin: 0;
   line-height: 1.6;
 }
+
 #header {
   line-height: 1.7;
   font-size: 1.5rem;
@@ -51,43 +57,55 @@ main {
   display: grid;
   font-family: "Roboto";
   grid-template-columns: 300px 300px 300px;
-  grid-template-rows: repeat(4, 400px);
+  grid-template-rows: 550px;
   gap: 15px;
   margin-top: 40px;
-  grid-auto-rows: 450px;
+  grid-auto-rows: 550px;
 }
 
 h2 {
   font-size: 16px;
   font-weight: 400;
   text-align: left;
-  color: rgb(100, 91, 91);
-  padding: 10px;
+  color: rgb(255, 255, 255);
+  text-shadow: 2px 2px rgb(100, 91, 91);
+  font-size: 18px;
+  padding-left: 5px;
+  padding-bottom: 10px;
+}
+
+.foodimg {
+  justify-content: center;
+  width: 100%;
+}
+
+.foodimg:hover {
+  opacity: 0.8;
 }
 
 .recipe {
   box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.5);
+  background-color: rgb(204, 131, 138);
 }
 
 .time {
-  padding-left: 10px;
-  width: 20px;
-  height: auto;
+  padding-left: 0px;
+  display: inline-block;
+  color: rgb(221, 211, 211);
+  font-size: 15px;
 }
 
-.mins {
-  display: inline-block;
-  text-align: left;
-  color: rgb(100, 91, 91);
-  position: relative;
-}
 .description {
-  text-align: left;
-  color: rgb(100, 91, 91);
+  color: rgb(221, 211, 211);
   padding: 10px;
 }
 
 .container {
   min-width: 500px;
   justify-content: center;
+}
+
+.clock {
+  padding-left: 5px;
+  height: 15px;
 }
