@@ -34,7 +34,6 @@ ul {
 .icon {
 	display: flex;
 	align-items: center;
-	
 }
 
 .blogName {
@@ -55,7 +54,7 @@ body {
 	padding: 150px 0;
 	color: rgb(255, 255, 255);
 	text-shadow: 2px 2px rgb(100, 91, 91);
-	background-image: url("/img/rachel-park-hrlvr2ZlUNk-unsplash.jpg");
+	background-image: url("./img/rachel-park-hrlvr2ZlUNk-unsplash.jpg");
 	background-position: cover;
 	background-repeat: no-repeat;
 	background-size: cover;
